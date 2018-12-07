@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import RootComponent from './RootComponent';
 import Parent from "./family/parent";
 import Alphabet from "./alphabet/alphabet";
+import Counter from "./counter/counter";
 
 
 var position=document.getElementById("root");
@@ -20,6 +21,9 @@ ReactDOM.render(
      <Alphabet>C</Alphabet> 
      <Alphabet>D</Alphabet>
       <Alphabet>E</Alphabet>
+      <hr>
+      </hr>
+      <Counter> </Counter>
     </div>,position);
 
 
