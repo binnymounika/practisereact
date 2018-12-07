@@ -7,6 +7,7 @@ import Parent from "./family/parent";
 import Alphabet from "./alphabet/alphabet";
 import Counter from "./counter/counter";
 import LifeCycle from "./lifecycle/lifecycle";
+import RemoteAPIData from "./remote/apiData";
 
 
 var position=document.getElementById("root");
@@ -29,5 +30,7 @@ ReactDOM.render(
     </div>,position);
     ReactDOM.render(
     <div><LifeCycle></LifeCycle> </div>,position1)
+    ReactDOM.render(<div><RemoteAPIData></RemoteAPIData></div>,document.getElementById("remote")
+    )
 
 
