@@ -3,24 +3,12 @@ class UserDetail extends React.Component {
    
     render() { 
         return ( 
-        
-            <table border="4">
-            <thead>
-              <tr>
-                
-                <th>Name</th>
-                <th>Email</th>
-                
-                </tr>
-                </thead>
-        <tr>
-<td>  {this.props.myname} </td>
-<td>{this.props.myemail}</td>
+        <div>
+            
+<li>  {this.props.myname} </li>
+<li>{this.props.myemail}</li>
 
-        </tr>
-        
-        
-        </table>
+       </div>
         
         
         
