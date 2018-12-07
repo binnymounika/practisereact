@@ -6,10 +6,11 @@ import RootComponent from './RootComponent';
 import Parent from "./family/parent";
 import Alphabet from "./alphabet/alphabet";
 import Counter from "./counter/counter";
+import LifeCycle from "./lifecycle/lifecycle";
 
 
 var position=document.getElementById("root");
-
+var position1=document.getElementById("life");
 
 ReactDOM.render(
 <div>
@@ -24,6 +25,9 @@ ReactDOM.render(
       <hr>
       </hr>
       <Counter> </Counter>
+      
     </div>,position);
+    ReactDOM.render(
+    <div><LifeCycle></LifeCycle> </div>,position1)
 
 
