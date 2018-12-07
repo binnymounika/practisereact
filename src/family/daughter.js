@@ -4,7 +4,7 @@ class Daughter extends React.Component {
 
     render() { 
         return ( 
-            <div>Daughter</div>
+            <div>Daughter My name is {this.props.name}</div>
          );
     }
 }

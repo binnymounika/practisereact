@@ -8,8 +8,9 @@ class Parent extends React.Component {
         return ( <div>
             Parent
             <hr></hr>
-            <Daughter></Daughter>
-            <Son></Son>
+            WE are parents({this.props.children}) family.
+            <Daughter name={this.props.namedaughter}> </Daughter>
+            <Son name={this.props.nameson}></Son>
             </div> );
     }
 }

@@ -4,7 +4,7 @@ class Son extends React.Component {
     
     render() { 
         return (  <div>
-            son
+            son {this.props.name}
         </div>);
     }
 }
